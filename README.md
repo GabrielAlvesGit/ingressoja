@@ -52,6 +52,45 @@ Neste trabalho, apresentamos um site de eventos onde o usuário pode escolher um
 
 </p>
 
+## 🔎 Instruções de Como usar
+
+<pre>
+# Clone o repository
+$ git clone https://github.com/GabrielAlvesGit/ingressoja.git
+</pre>
+
+<pre>
+# Certifique-se de ter o MYSQL instalado
+$ Link: https://www.mysql.com/downloads/
+</pre>
+
+<pre>
+# scripts do MYSQL para colar no banco de dados
+$ dentro da pasta ->scripts -> feature-inicial-> ddl que tá na pasta scripts
+</pre>
+
+<pre>
+# Vai na Arquivo application.properties e ajusta a configurações para o seu mysql
+$ spring.jpa.hibernate.ddl-auto=update
+  spring.datasource.url=jdbc:mysql://localhost:3306/ingressoja
+  spring.datasource.username=root
+  spring.datasource.password=1q2w3e4r --> **olocar a mesma senha que você definiu ao seu banco MYSQL quando fez o Download**
+  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+</pre>
+
+<pre>
+# Rodar o Arquivo aplicattion.java
+$ aplicattion.java
+</pre>
+
+<pre>
+# Subir aplicação
+$ http://localhost:8080/ingressoja/home
+</pre>
+
 ## Documentações
 
 <a href="https://docs.google.com/document/d/11xhx35ILzS7PvUHJdPTi2ZIRn0_SZzNKkvfo3MNtzAM/edit?usp=sharing">Documentação de Todo o Projeto <img src="./src/main/resources/static/logo/iconAcimaDireitaBlue.png" alt="Imagem Seta A Direita Blue" style="width: 12px; height: 12px; "></a>
+
+## 💻 Layout 
+![image](https://github.com/GabrielAlvesGit/ingressoja/assets/102634725/70730cc7-7f38-40f6-b8b5-a58ea9c25aee)
