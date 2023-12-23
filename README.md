@@ -74,7 +74,7 @@ $ dentro da pasta ->scripts -> feature-inicial-> ddl que tá na pasta scripts
 $ spring.jpa.hibernate.ddl-auto=update
   spring.datasource.url=jdbc:mysql://localhost:3306/ingressoja
   spring.datasource.username=root
-  spring.datasource.password=1q2w3e4r --> **olocar a mesma senha que você definiu ao seu banco MYSQL quando fez o Download**
+  spring.datasource.password=1q2w3e4r --> **Colocar a mesma senha que você definiu ao seu banco MYSQL quando fez o Download**
   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 </pre>
 
